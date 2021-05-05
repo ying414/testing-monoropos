@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.1.6](https://github.com/ying414/testing-monoropos/compare/@ying414/alpha@0.1.5...@ying414/alpha@0.1.6) (2021-05-05)
+
+
+### Bug Fixes
+
+* add testing msg in alpha ([43771d3](https://github.com/ying414/testing-monoropos/commit/43771d3908dc89864dc21cf9afd5570261507e44))
+
+
+
+
+
 ## [0.1.5](https://github.com/ying414/testing-monoropos/compare/@ying414/alpha@0.1.2...@ying414/alpha@0.1.5) (2021-05-05)
 
 
