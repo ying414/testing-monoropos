@@ -1,0 +1,8 @@
+{
+  "name": "@ying414/beta",
+  "repository": "git@github.com:ying414/testing-monoropos.git",
+  "version": "0.0.0",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  }
+}
