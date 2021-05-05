@@ -1,7 +1,7 @@
 {
   "name": "@ying414/alpha",
   "repository": "git@github.com:ying414/testing-monoropos.git",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/"
   }
