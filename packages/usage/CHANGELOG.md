@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.1.4](https://github.com/ying414/testing-monoropos/compare/@ying414/usage@0.1.2...@ying414/usage@0.1.4) (2021-05-05)
+
+
+### Bug Fixes
+
+* fix ([0c10254](https://github.com/ying414/testing-monoropos/commit/0c10254afc31eac0327d41c837d714ff0fa329d2))
+
+
+
+
+
 ## [0.1.3](https://github.com/ying414/testing-monoropos/compare/@ying414/usage@0.1.2...@ying414/usage@0.1.3) (2021-05-05)
 
 **Note:** Version bump only for package @ying414/usage
