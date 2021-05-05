@@ -1,3 +1,1 @@
-// make change for zesheng
-
-module.exports = 'alpha';
+module.exports = 'alpa';
