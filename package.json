@@ -16,5 +16,8 @@
       "pre-commit": "echo git hooks are awesome!",
       "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
     }
+  },
+  "scripts": {
+    "commit": "cz"
   }
 }
