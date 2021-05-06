@@ -1,2 +1,3 @@
 // beta package
-module.exports = "beta";
+
+module.exports = 'beta';
