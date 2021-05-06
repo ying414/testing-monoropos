@@ -1,9 +1,9 @@
 {
   "name": "@ying414/usage",
   "repository": "git@github.com:ying414/testing-monoropos.git",
-  "version": "0.1.9",
+  "version": "0.1.10",
   "dependencies": {
-    "@ying414/alpha": "^0.1.8",
+    "@ying414/alpha": "^0.1.9",
     "@ying414/beta": "^0.1.2"
   },
   "publishConfig": {
