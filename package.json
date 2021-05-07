@@ -16,5 +16,9 @@
       "pre-commit": "echo git hooks are awesome!",
       "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
     }
+  },
+  "script": {
+    "version:convention": "lerna version --conventional-commits --no-git-tag-version",
+    "publish:ci": "lerna publish from-package --yes",
   }
 }
