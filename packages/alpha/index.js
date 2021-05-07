@@ -1,4 +1,3 @@
-// first commit
-// second commit
+// package alpha
 
 module.exports = 'alpha';
