@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.1.17](https://github.com/ying414/testing-monoropos/compare/@ying414/alpha@0.1.16...@ying414/alpha@0.1.17) (2021-05-07)
+
+
+### Bug Fixes
+
+* alpha modules ([ba827f0](https://github.com/ying414/testing-monoropos/commit/ba827f0e541fe29db8db1a626bb1efaf008fcea8))
+
+
+
+
+
 ## [0.1.16](https://github.com/ying414/testing-monoropos/compare/@ying414/alpha@0.1.15...@ying414/alpha@0.1.16) (2021-05-07)
 
 
