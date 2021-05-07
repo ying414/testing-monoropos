@@ -19,6 +19,6 @@
   },
   "script": {
     "version:convention": "lerna version --conventional-commits --no-git-tag-version",
-    "publish:ci": "lerna publish from-package --yes",
+    "publish:ci": "lerna publish from-package --yes"
   }
 }
