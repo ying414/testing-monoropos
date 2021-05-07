@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.1.11](https://github.com/ying414/testing-monoropos/compare/@ying414/alpha@0.1.10...@ying414/alpha@0.1.11) (2021-05-07)
+
+
+### Bug Fixes
+
+* udpate comment ([3cd4e66](https://github.com/ying414/testing-monoropos/commit/3cd4e6640bc9be80a43b995852ade44b1ffa918b))
+
+
+
+
+
 ## [0.1.10](https://github.com/ying414/testing-monoropos/compare/@ying414/alpha@0.1.9...@ying414/alpha@0.1.10) (2021-05-06)
 
 
