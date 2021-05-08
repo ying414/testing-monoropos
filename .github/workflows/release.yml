@@ -21,7 +21,10 @@ jobs:
     steps:
       - name: Checkout code
         uses: actions/checkout@v2
-      - name: Set outputs
+      - name: Get current date
+        id: date
+        run: echo "::set-output name=date::$(date +'%Y-%m-%d')"
+      - name: Set short hash
         id: vars
         run: echo "::set-output name=sha_short::$(git rev-parse --short HEAD)"
       - name: Check outputs
@@ -32,8 +35,8 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} # This token is provided by Actions, you do not need to create your own token
         with:
-          tag_name: release/${{ steps.vars.outputs.sha_short }}
-          release_name: Release ${{ github.sha }}
+          tag_name: release/${{ steps.date.outputs.date }} - ${{ steps.vars.outputs.sha_short }}
+          release_name: Release {{ steps.date.outputs.date }} - ${{ steps.vars.outputs.sha_short }}
           body: |
             Changes in this Release
             ${{ github.event.inputs.release_description }}
