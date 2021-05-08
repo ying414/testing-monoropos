@@ -7,6 +7,9 @@ on:
       - master
   workflow_dispatch:
     inputs:
+      release_start:
+        description: 'enter true to trigger release'
+        required: true
       release_description: 
         description: 'Release description'
         required: true
@@ -24,10 +27,11 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} # This token is provided by Actions, you do not need to create your own token
         with:
-          tag_name: ${{ github.ref }}
-          release_name: Release ${{ github.ref }}
+          tag_name: ${{ github.sha }}
+          release_name: Release ${{ github.sha }}
           body: |
             Changes in this Release
-            ${{ github.event.inputs.versionName }}
+            ${{ github.event.inputs.release_description }}
           draft: false
           prerelease: false
+        if: ${{ github.ref == 'refs/heads/master' && github.event.inputs.release_start == 'true' }}
