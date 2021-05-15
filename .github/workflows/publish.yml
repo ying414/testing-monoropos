@@ -1,4 +1,4 @@
-name: Build and Release Packages
+name: Publish Package
 on:
   pull_request:
     types: [opened, synchronize]
@@ -12,8 +12,8 @@ on:
         required: false
 jobs:
   Build:
-    name: Build
-    runs-on: generic-linux
+    name: Publish
+    runs-on: ubuntu-latest
     steps:
       - name: publish packages
         if: ${{ github.event_name == 'workflow_dispatch' }}
