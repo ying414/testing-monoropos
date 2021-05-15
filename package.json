@@ -5,6 +5,9 @@
   "repository": "https://github.com/ying414/testing-monoropos.git",
   "author": "yjiang <yjiang@roblox.com>",
   "license": "MIT",
+  "scripts": {
+    "publish": "lerna changed && lerna publish"
+  },
   "devDependencies": {
     "@commitlint/cli": "^12.1.1",
     "@commitlint/config-conventional": "^12.1.1",
