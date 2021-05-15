@@ -2,8 +2,6 @@
 
 # dependencies
 node_modules
-.pnp
-.pnp.js
 
 # testing
 coverage
@@ -20,6 +18,3 @@ yarn-error.log*
 
 # vs code
 .vscode
-
-# idea
-.idea
