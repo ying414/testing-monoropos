@@ -6,7 +6,7 @@
   "author": "yjiang <yjiang@roblox.com>",
   "license": "MIT",
   "scripts": {
-    "publish": "lerna changed && lerna publish from-package --ignore-scripts --yes"
+    "publish": "lerna ls --since master && lerna publish from-package --ignore-scripts --yes"
   },
   "devDependencies": {
     "@commitlint/cli": "^12.1.1",
