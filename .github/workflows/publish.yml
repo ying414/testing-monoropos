@@ -17,9 +17,9 @@ jobs:
     steps:
       - name: Install dependencies and bootstrap packages
         run: |
-          npm install --quiet
-          npx lerna bootstrap
+          yarn
+          yarn lerna bootstrap
       - name: publish packages
         if: ${{ github.event_name == 'workflow_dispatch' }}
         run: |
-          npx lerna ls --since master && npx lerna publish
+          yarn lerna ls --since master && yarn lerna publish
