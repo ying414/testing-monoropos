@@ -2,6 +2,7 @@
   "name": "@ying414/beta",
   "repository": "git@github.com:ying414/testing-monoropos.git",
   "version": "0.1.2",
+  "main": "index.js",
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/"
   }
