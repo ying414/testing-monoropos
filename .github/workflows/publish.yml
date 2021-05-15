@@ -15,6 +15,8 @@ jobs:
     name: Publish
     runs-on: ubuntu-latest
     steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
       - name: Install dependencies and bootstrap packages
         run: |
           yarn
