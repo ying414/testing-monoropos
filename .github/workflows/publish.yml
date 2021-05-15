@@ -20,7 +20,6 @@ jobs:
       - name: Install dependencies and bootstrap packages
         run: |
           npm install --quiet
-          npx lerna bootstrap
       - name: publish packages
         if: ${{ github.event_name == 'workflow_dispatch' }}
         run: |
