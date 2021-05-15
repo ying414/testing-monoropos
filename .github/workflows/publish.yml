@@ -1,0 +1,21 @@
+name: Build and Release Packages
+on:
+  pull_request:
+    types: [opened, synchronize]
+  push:
+    branches:
+      - master
+  workflow_dispatch:
+    inputs:
+      release_description:
+        description: 'Publish description'
+        required: false
+jobs:
+  Build:
+    name: Build
+    runs-on: generic-linux
+    steps:
+      - name: publish packages
+        if: ${{ github.event_name == 'workflow_dispatch' }}
+        run: |
+          npx lerna ls --since master && npx lerna publish
